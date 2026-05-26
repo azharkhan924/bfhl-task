@@ -12,10 +12,13 @@ public class BfhlController {
     @Autowired
     private BfhlService service;
 
+    @GetMapping("/health")
+    public String check() {
+        return "API Running";
+    }
+
     @PostMapping("/bfhl")
     public ResponseDto getData(@RequestBody RequestDto req){
-
         return service.processData(req);
-
     }
 }
