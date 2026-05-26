@@ -1,54 +1,36 @@
 # BFHL Task
 
-Spring Boot REST API developed for the BFHL task.
+This is a Spring Boot API created for the BFHL assignment.
 
-## Tech Stack
+## Technologies Used
 
-* Java 17
+* Java
 * Spring Boot
 * Maven
 * Docker
 * Render
 
-## API Endpoints
+## API URLs
 
-### Health Check API
-
-Method:
-
-```text
-GET
-```
-
-URL:
+### GET API
 
 ```text
 https://bfhl-task-1-1620.onrender.com/health
 ```
 
-Sample Response:
+Response:
 
 ```text
 API Running
 ```
 
----
-
-### BFHL API
-
-Method:
-
-```text
-POST
-```
-
-URL:
+### POST API
 
 ```text
 https://bfhl-task-1-1620.onrender.com/bfhl
 ```
 
-Request Body:
+Request:
 
 ```json
 {
@@ -56,7 +38,7 @@ Request Body:
 }
 ```
 
-Sample Response:
+Response:
 
 ```json
 {
@@ -64,15 +46,15 @@ Sample Response:
     "user_id": "azharkhan_26052026",
     "email": "azharkhan230826@acropolis.in",
     "roll_number": "0827CS231059",
-    "odd_numbers": ["1"],
-    "even_numbers": ["334","4"],
-    "alphabets": ["A","R"],
-    "special_characters": ["$"],
-    "sum": "339",
-    "concat_string": "Ra"
+    "odd_numbers":["1"],
+    "even_numbers":["334","4"],
+    "alphabets":["A","R"],
+    "special_characters":["$"],
+    "sum":"339",
+    "concat_string":"Ra"
 }
 ```
 
 ## Deployment
 
-The application is deployed on Render using Docker.
+Project deployed using Docker and Render.
