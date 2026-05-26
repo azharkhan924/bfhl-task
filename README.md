@@ -22,14 +22,12 @@ API Running
 ### POST API
 https://bfhl-task-1-1620.onrender.com/bfhl
 
-Request:
 
+  Request:
 {
    "data":["a","1","334","4","R","$"]
 }
-
 Response:
-
 {
     "is_success": true,
     "user_id": "azharkhan_26052026",
