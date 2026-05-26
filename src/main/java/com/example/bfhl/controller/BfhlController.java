@@ -19,6 +19,16 @@ public class BfhlController {
 
     @PostMapping("/bfhl")
     public ResponseDto getData(@RequestBody RequestDto req){
-        return service.processData(req);
+
+        try{
+            return service.processData(req);
+        }
+        catch(Exception e){
+
+            ResponseDto res = new ResponseDto();
+            res.setIs_success(false);
+
+            return res;
+        }
     }
 }
