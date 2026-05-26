@@ -14,21 +14,13 @@ This is a Spring Boot API created for the BFHL assignment.
 
 ### GET API
 
-```text
 https://bfhl-task-1-1620.onrender.com/health
-```
 
 Response:
-
-```text
 API Running
-```
 
 ### POST API
-
-```text
 https://bfhl-task-1-1620.onrender.com/bfhl
-```
 
 Request:
 
