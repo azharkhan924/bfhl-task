@@ -12,22 +12,35 @@ This is a Spring Boot API created for the BFHL assignment.
 
 ## API URLs
 
-### GET API
+### GET API 
 
+```text
 https://bfhl-task-1-1620.onrender.com/health
+```
 
 Response:
+
+```text
 API Running
+```
 
 ### POST API
+
+```text
 https://bfhl-task-1-1620.onrender.com/bfhl
+```
 
+Request:
 
-  Request:
+```json
 {
    "data":["a","1","334","4","R","$"]
 }
-Response:
+```
+
+Sample Response:
+
+```json
 {
     "is_success": true,
     "user_id": "azharkhan_26052026",
@@ -40,7 +53,8 @@ Response:
     "sum":"339",
     "concat_string":"Ra"
 }
+```
 
 ## Deployment
 
-Project deployed using Docker and Render.
+The project is deployed using Docker and Render.
