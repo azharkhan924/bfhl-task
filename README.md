@@ -24,15 +24,12 @@ https://bfhl-task-1-1620.onrender.com/bfhl
 
 Request:
 
-```json
 {
    "data":["a","1","334","4","R","$"]
 }
-```
 
 Response:
 
-```json
 {
     "is_success": true,
     "user_id": "azharkhan_26052026",
@@ -45,7 +42,6 @@ Response:
     "sum":"339",
     "concat_string":"Ra"
 }
-```
 
 ## Deployment
 
