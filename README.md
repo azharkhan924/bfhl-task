@@ -1,2 +1,3 @@
 BFHL TASk
-link:srv-d8ams7mgvqtc73d0t9u0/bfhl
+get : (https://bfhl-task-1-1620.onrender.com/health)
+post:https://bfhl-task-1-1620.onrender.com/bfhl
