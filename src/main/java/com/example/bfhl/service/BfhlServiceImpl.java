@@ -68,7 +68,7 @@ public class BfhlServiceImpl implements BfhlService {
 
         res.setIs_success(true);
 
-        res.setUser_id("azhar_26052026");
+        res.setUser_id("azharkhan_26052026");
         res.setEmail("azharkhan230826@acropolis.in");
         res.setRoll_number("0827CS231059");
         res.setOdd_numbers(odd);
